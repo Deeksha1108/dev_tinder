@@ -1,0 +1,17 @@
+- Create a repository
+- Initialize a repository
+- node_modules, package.json, package-lock.json
+- Install Express
+- Create a Server
+- Listen to port 7777
+- Write request handlers for /test, /hello
+- Install nodemon, and update scripts inside package.json
+- What are dependencies.
+- What is the use of "-g" while npm install
+- Difference between caret and tilte (^ vs ~)
+- Install Postman app and make a test API call
+- Write logic to handle GET, POST, PUT, PATCH, DELETE API calls and test them on Postman
+- Explore routing and use of ?, +, (), * in the routes
+- Use of regex in routes /a/ , /.*fly$/
+- Reading the query params in the routes
+- Reading the dynamic routes
