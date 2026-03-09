@@ -1,6 +1,20 @@
 const express = require("express");
+const connectDB = require("./config/database");
+const User = require("./models/user");
 
 const app = express();
+
+app.post("/signup", async (req, res) => {
+  const userObj = {
+    firstName: "Deeksha",
+    lastName: "Singh",
+    emailId: "deeksha1827",
+    password: "deeK@123",
+  };
+  const user = new User(userObj);
+  await user.save();
+  res.send("User Added Successully");
+});
 
 // app.use("/ab*c", (req, res) => { // call with these also output will be same (abDEEkshac).....add anything in between
 //   res.send("Hello from the Namaste Nodejs (ExpressJS)!");
