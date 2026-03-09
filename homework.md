@@ -32,3 +32,4 @@
 - What is middleware?
 - How express JS basically handles requests behind the scenes
 - Difference between app.all() and app.use()
+- Error Handling using app.use("/", (err, req, res, next) = {});
